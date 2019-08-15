@@ -97,9 +97,9 @@
         if (!parameters.inline) {
             return {
                 days: createCountdownElt(countdown, parameters, 'simply-days-section'),
-                //hours: createCountdownElt(countdown, parameters, 'simply-hours-section'),
-                //minutes: createCountdownElt(countdown, parameters, 'simply-minutes-section'),
-                //seconds: createCountdownElt(countdown, parameters, 'simply-seconds-section')
+                hours: createCountdownElt(countdown, parameters, 'simply-hours-section'),
+                minutes: createCountdownElt(countdown, parameters, 'simply-minutes-section'),
+                seconds: createCountdownElt(countdown, parameters, 'simply-seconds-section')
             };
         }
 
