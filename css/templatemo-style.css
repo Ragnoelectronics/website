@@ -213,7 +213,11 @@ ul {
 /* end Colors */
 
 .tm-brand-row {
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
+}
+
+.tm-brand-container {
+    padding-left: 50px;
 }
 
 .tm-welcome-row {
